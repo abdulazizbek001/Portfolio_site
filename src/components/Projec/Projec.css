@@ -1,0 +1,181 @@
+/*============================= PROJECT START =============================*/
+
+.project {
+    margin-bottom: 136px;
+}
+
+.project_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54%;
+    text-align: start;
+    color: rgb(49, 89, 100);
+    margin-bottom: 49px;
+}
+
+.project_text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 81%;
+    text-align: start;
+    color: #666666;
+    margin-bottom: 96px;
+}
+
+.project_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 65px 50px;
+}
+
+.project_list li {
+    position: relative;
+    border-radius: 20px;
+    width: 340px;
+    height: 567px;
+    box-shadow: 2px 2px 100px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.project_list li img {
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    transition: all 3s ease;
+}
+
+.project_list-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 93%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 17px;
+    margin-top: 27px;
+}
+
+.project_list-text {
+    width: 280px;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 144%;
+    color: #666666;
+    margin-bottom: 12px;
+}
+
+.project_list-text2 {
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(49, 89, 100);
+}
+
+
+.project_list-text2 span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: rgb(49, 89, 100);
+    margin-bottom: 24px;
+}
+
+.project_list-box {
+    display: flex;
+    align-items: center;
+    gap: 0 48px;
+    justify-content: center;
+}
+
+.project_link-box {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.project_link-box a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+
+.projects_link {
+    border-radius: 10px;
+    background-color: darkmagenta;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid darkmagenta;
+    margin-bottom: 30px;
+}
+
+.projects_link:hover {
+    color: darkmagenta;
+    border: 2px solid darkmagenta;
+    background-color: transparent;
+}
+
+.projects_link:active {
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    color: white;
+}
+
+/*============================= PROJECT END =============================*/
+
+/*============================= MEDIA START =============================*/
+
+@media only screen and (max-width: 528px) {
+    .project_title {
+        text-align: center;
+    }
+
+    .project_text {
+        text-align: center;
+        line-height: 130%;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+
+    .project {
+        margin-bottom: 50px;
+    }
+
+    .project_list li {
+        width: 240px;
+    }
+
+    .project_list li img {
+        width: 240px;
+        height: 160px;
+    }
+
+    .project_list-title {
+        font-size: 20px;
+    }
+
+    .project_list-text {
+        width: 200px;
+        text-align: center;
+    }
+
+    .project_list-box {
+        flex-direction: column;
+        gap:  10px 0;
+    }
+
+    .project_list-box .project_link-box img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/*============================= MEDIA END =============================*/

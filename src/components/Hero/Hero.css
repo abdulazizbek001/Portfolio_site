@@ -1,0 +1,70 @@
+/*============================= HERO START =============================*/
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 273px;
+}
+
+.hero_title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: rgb(66, 86, 110);
+}
+
+.hero_title span {
+    background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero_box {
+    background: linear-gradient(#E70FAA, #00C0FD);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.hero_img {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0px -4px;
+    opacity: 0.8;
+}
+
+/*============================= HERO END =============================*/
+
+/*============================= MEDIA START =============================*/
+
+@media only screen and (max-width: 830px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero_title {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+
+    .hero_img {
+        width: 265px;
+        height: 265px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .hero_title {
+        font-size: 30px;
+    }
+
+    .hero_img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*============================= MEDIA END =============================*/

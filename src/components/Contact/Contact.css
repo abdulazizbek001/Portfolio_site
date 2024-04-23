@@ -1,0 +1,110 @@
+/*============================= CONTACT START =============================*/
+
+.contact {
+    margin-bottom: 293px;
+}
+
+.contact_title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #1e0e62;
+    margin-bottom: 5px;
+}
+
+.contact_title-email {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact_title-email-fake {
+    text-align: center;
+    display: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*============================= CONTACT END =============================*/
+
+/*============================= MEDIA START =============================*/
+
+@media only screen and (max-width: 1097px) {
+    .contact_title {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .contact_title-email {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 797px) {
+
+    .contact_title {
+        font-size: 35px;
+    }
+
+    .contact_title-email {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    .contact_title-email {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+
+    .contact_title {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .contact_title-email {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 328px) {
+
+    .contact {
+        margin-bottom: 100px;
+    }
+
+    .contact_title-email {
+        display: none;
+    }
+
+    .contact_title-email-fake {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    .contact_title {
+        margin-bottom: 10px;
+    }
+}
+
+/*============================= MEDIA END =============================*/
