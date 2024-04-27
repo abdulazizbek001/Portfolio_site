@@ -7,8 +7,6 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
 
-
-
     return (
         <header className="header">
             <div className="container">

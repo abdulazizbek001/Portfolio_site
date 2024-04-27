@@ -45,14 +45,31 @@
     transition: all 3s ease;
 }
 
+.project_list li::before {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 577px;
+    top: -5px;
+    left: -5px;
+    bottom: 0;
+    background: linear-gradient(182deg, #00a5ec 2.6%, #e70faa 100%);
+    border-radius: 20px;
+    z-index: -1;
+}
+
 .project_list-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 28px;
     line-height: 93%;
     text-align: center;
     color: #000;
     margin-bottom: 17px;
     margin-top: 27px;
+    background: conic-gradient( #13b0f5 2.6%, #e70faa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .project_list-text {

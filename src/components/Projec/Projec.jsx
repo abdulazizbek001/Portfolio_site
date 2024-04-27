@@ -21,7 +21,7 @@ function Projec() {
                     <ul className='project_list'>
                         <li>
                             <img src={ProjectImg1} alt="img1" width={340} height={260} />
-                            <h3 className="project_list-title">Project Tile goes here</h3>
+                            <h3 className="project_list-title">Border-Generator</h3>
                             <p className="project_list-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
                             <p className="project_list-text2"><span>Tech stack :</span> HTML , JavaScript, CSS</p>
                             <div className="project_list-box">
@@ -37,7 +37,7 @@ function Projec() {
                         </li>
                         <li>
                             <img src={ProjectImg2} alt="img2" width={340} height={260} />
-                            <h3 className="project_list-title">Project Tile goes here</h3>
+                            <h3 className="project_list-title">Border-Radius-Generator</h3>
                             <p className="project_list-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
                             <p className="project_list-text2"><span>Tech stack :</span> HTML , JavaScript, CSS</p>
                             <div className="project_list-box">
@@ -54,7 +54,7 @@ function Projec() {
                         </li>
                         <li>
                             <img src={ProjectImg3} alt="img3" width={340} height={260} />
-                            <h3 className="project_list-title">Project Tile goes here</h3>
+                            <h3 className="project_list-title">Flags-site</h3>
                             <p className="project_list-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
                             <p className="project_list-text2"><span>Tech stack :</span> JavaScript, CSS , React</p>
                             <div className="project_list-box">
@@ -70,7 +70,7 @@ function Projec() {
                         </li>
                         <li>
                             <img src={ProjectImg4} alt="img4" width={340} height={260} />
-                            <h3 className="project_list-title">Project Tile goes here</h3>
+                            <h3 className="project_list-title">Pokemon</h3>
                             <p className="project_list-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
                             <p className="project_list-text2"><span>Tech stack :</span> HTML , JavaScript, CSS</p>
                             <div className="project_list-box">
@@ -86,7 +86,7 @@ function Projec() {
                         </li>
                         <li>
                             <img src={ProjectImg5} alt="img5" width={340} height={260} />
-                            <h3 className="project_list-title">Project Tile goes here</h3>
+                            <h3 className="project_list-title">Cootels-site</h3>
                             <p className="project_list-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
                             <p className="project_list-text2"><span>Tech stack :</span>JavaScript, CSS, React</p>
                             <div className="project_list-box">
@@ -102,7 +102,7 @@ function Projec() {
                         </li>
                         <li>
                             <img src={ProjectImg6} alt="img6" width={340} height={260} />
-                            <h3 className="project_list-title">Project Tile goes here</h3>
+                            <h3 className="project_list-title">Weather-site</h3>
                             <p className="project_list-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
                             <p className="project_list-text2"><span>Tech stack :</span> HTML , JavaScript, CSS</p>
                             <div className="project_list-box">
@@ -118,7 +118,7 @@ function Projec() {
                         </li>
                         <li>
                             <img src={ProjectImg7} alt="img7" width={340} height={260} />
-                            <h3 className="project_list-title">Project Tile goes here</h3>
+                            <h3 className="project_list-title">Dogs</h3>
                             <p className="project_list-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
                             <p className="project_list-text2"><span>Tech stack :</span> HTML , JavaScript, CSS</p>
                             <div className="project_list-box">
@@ -134,7 +134,7 @@ function Projec() {
                         </li>
                         <li>
                             <img src={ProjectImg8} alt="img8" width={340} height={260} />
-                            <h3 className="project_list-title">Project Tile goes here</h3>
+                            <h3 className="project_list-title">Furniro-site</h3>
                             <p className="project_list-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
                             <p className="project_list-text2"><span>Tech stack :</span> HTML , JavaScript, CSS</p>
                             <div className="project_list-box">
@@ -150,7 +150,7 @@ function Projec() {
                         </li>
                         <li>
                             <img src={ProjectImg9} alt="img9" width={340} height={260} />
-                            <h3 className="project_list-title">Project Tile goes here</h3>
+                            <h3 className="project_list-title">Product-site</h3>
                             <p className="project_list-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
                             <p className="project_list-text2"><span>Tech stack :</span> HTML , Tailwind CSS</p>
                             <div className="project_list-box">

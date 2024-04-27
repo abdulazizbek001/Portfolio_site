@@ -18,47 +18,62 @@ function Info() {
                     <h2 className="info_title">My Tech Stack</h2>
                     <p className="info_text"> Technologies I’ve been working with recently</p>
                     <ul className="info_list">
-                        <li>
+                        <li className='info_item'>
                             <img src={Html} alt="html" width={120} height={120} />
-
+                            <h3>- HTML</h3>
                         </li>
-                        <li>
+                        <li><hr /></li>
+                        <li className='info_item'>
                             <img src={Css} alt="css" width={120} height={120} />
-
+                            <h3>- CSS</h3>
                         </li>
-                        <li>
+                        <li><hr /></li>
+
+                        <li className='info_item'>
                             <img src={Js} alt="js" width={120} height={120} />
-
+                            <h3>- JAVASCRIPT</h3>
                         </li>
-                        <li>
+                        <li><hr /></li>
 
-                            <img src={React} alt="react" width={113} height={101} />
-
+                        <li className='info_item'>
+                            <img src={React} alt="react" width={120} height={120} />
+                            <h3>- REACT</h3>
                         </li>
-                        <li>
-                            <img src={Bootstrap} alt="bootstrap" width={88} height={87} />
+                        <li><hr /></li>
 
+                        <li className='info_item'>
+                            <img src={Bootstrap} alt="bootstrap" width={120} height={120} />
+                            <h3>- BOOTSTRAP</h3>
                         </li>
-                        <li>
-                            <img src={TawliandCss} alt="tawliand_css" width={131} height={131} />
+                        <li><hr /></li>
 
+                        <li className='info_item'>
+                            <img src={TawliandCss} alt="tawliand_css" width={120} height={120} />
+                            <h3>- TAWLIAND CSS</h3>
                         </li>
-                        <li>
-                            <img src={Scss} alt="scss" width={117} height={87} />
+                        <li><hr /></li>
 
+                        <li className='info_item'>
+                            <img src={Scss} alt="scss" width={120} height={120} />
+                            <h3>- SCSS/SASS</h3>
                         </li>
-                        <li>
-                            <img src={Git} alt="git" width={105} height={105} />
+                        <li><hr /></li>
 
+                        <li className='info_item'>
+                            <img src={Git} alt="git" width={120} height={120} />
+                            <h3>- GIT</h3>
                         </li>
-                        <li>
+                        <li><hr /></li>
 
-                            <img src={Vscode} alt="vscode" width={112} height={112} />
-
+                        <li className='info_item'>
+                            <img src={Vscode} alt="vscode" width={120} height={120} />
+                            <h3>- VISUAL STUDIO CODE</h3>
                         </li>
-                        <li>
-                            <img src={Github} alt="github" width={88} height={88} />
+                        <li><hr /></li>
 
+                        <li className='info_item'>
+                            <img src={Github} alt="github" width={120} height={120} />
+                            <h3>-  GITHUB</h3>
                         </li>
                     </ul>
                 </div>
